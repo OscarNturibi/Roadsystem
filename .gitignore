@@ -1,0 +1,42 @@
+# ── Python / virtual environment ─────────────────────────────
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Model weights (too large for git — host on Drive/HF, link in README) ──
+*.pt
+*.pth
+*.onnx
+
+# ── Datasets & raw archives (too large for git) ──────────────
+*.zip
+RoadDamageDataset/
+RDD2022_United_States.zip
+archive.zip
+Nairobi roads/
+test images/
+notearchive/
+
+# ── Training run outputs (regenerated on every run, not source) ──
+runs/
+models/
+eval_cache.json
+image training curves.png
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+*.csv
+alert_log.txt
+inspection_log.csv
+log.csv
+
+# ── Documents (host separately or track with Git LFS if needed) ──
+*.docx
+
+# ── System / editor files ────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
