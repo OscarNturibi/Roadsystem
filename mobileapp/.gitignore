@@ -1,0 +1,48 @@
+# ── Flutter/Dart tooling ──────────────────────────────────────
+.dart_tool/
+.flutter-plugin-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# ── Generated files ───────────────────────────────────────────
+**/generated_plugin_registrant.dart
+**/GeneratedPluginRegistrant.*
+
+# ── Android ───────────────────────────────────────────────────
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+android/key.properties
+*.jks
+*.keystore
+
+# ── iOS ───────────────────────────────────────────────────────
+ios/Flutter/.last_build_id
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+ios/.symlinks/
+**/Flutter/ephemeral/
+**/Pods/
+
+# ── IDE / editor ──────────────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Coverage / test output ───────────────────────────────────
+coverage/
+
+# ── Local environment / secrets ──────────────────────────────
+.env
